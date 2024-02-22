@@ -17,7 +17,7 @@
 
 ### Example
 
-1. Get a customers
+1. Get a customer
 
 `GET` `http://localhost:4000/customer/4`
 

@@ -6,15 +6,18 @@
 | --------------- | ------ | --------------------- |
 | `/health`       | GET    | Check health          |
 | `/customer`     | GET    | Get list of customers |
+| `/customer/:id` | GET    | Get a customer        |
 | `/customer`     | POST   | Add a customer        |
 | `/customer/:id` | PUT    | Update a customer     |
 | `/customer/:id` | DELETE | Delete a customer     |
 | `/topmenu`      | GET    | Get list of top menus |
+| `/topmenu/:id`  | GET    | Get a top menu        |
 | `/menu`         | GET    | Get list of menus     |
+| `/menu/:id`     | GET    | Get a menu            |
 
 ### Example
 
-1. Get list of customers
+1. Get a customers
 
 `GET` `http://localhost:4000/customer/4`
 
